@@ -1,0 +1,5 @@
+docker-compose.yml
+wp-cli.yml
+performance/
+wordpress/wp-config.php
+.env

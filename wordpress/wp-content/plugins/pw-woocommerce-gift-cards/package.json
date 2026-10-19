@@ -1,0 +1,12 @@
+{
+  "name": "pw-gift-cards",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build assets/blocks/blocks.jsx --output-path=assets/dist --output-filename=blocks.js",
+    "start": "wp-scripts start assets/blocks/blocks.jsx --output-path=assets/dist --output-filename=blocks.js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.27.0"
+  }
+}

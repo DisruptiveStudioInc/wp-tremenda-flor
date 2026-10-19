@@ -1,0 +1,101 @@
+# Copyright (C) 2026 WPClever
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Product Videos for WooCommerce 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpc-product-videos\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-11T03:08:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wpc-product-videos\n"
+
+#. Plugin Name of the plugin
+#: wpc-product-videos.php
+msgid "WPC Product Videos for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wpc-product-videos.php
+msgid "https://wpclever.net/"
+msgstr ""
+
+#. Description of the plugin
+#: wpc-product-videos.php
+msgid "WPC Product Videos helps you add many videos for a product and linked to the feature image or product gallery images."
+msgstr ""
+
+#. Author of the plugin
+#: wpc-product-videos.php
+msgid "WPClever"
+msgstr ""
+
+#. Author URI of the plugin
+#: wpc-product-videos.php
+msgid "https://wpclever.net"
+msgstr ""
+
+#: wpc-product-videos.php:98
+msgid "Video URL saved successfully."
+msgstr ""
+
+#: wpc-product-videos.php:103
+#: wpc-product-videos.php:118
+#: wpc-product-videos.php:220
+msgid "WPC Product Videos"
+msgstr ""
+
+#: wpc-product-videos.php:103
+msgid "Product Videos"
+msgstr ""
+
+#. translators: stars
+#: wpc-product-videos.php:121
+#, php-format
+msgid "Thank you for using our plugin! If you are satisfied, please reward it a full five-star %s rating."
+msgstr ""
+
+#: wpc-product-videos.php:124
+msgid "Reviews"
+msgstr ""
+
+#: wpc-product-videos.php:126
+msgid "Changelog"
+msgstr ""
+
+#: wpc-product-videos.php:129
+msgid "Discussion"
+msgstr ""
+
+#: wpc-product-videos.php:139
+#: wpc-product-videos.php:193
+msgid "How to use?"
+msgstr ""
+
+#: wpc-product-videos.php:143
+msgid "Essential Kit"
+msgstr ""
+
+#: wpc-product-videos.php:151
+msgid "When set product image or add product gallery images you can add the video URL for each image. You also can do it when editing an image via Media Library."
+msgstr ""
+
+#: wpc-product-videos.php:155
+msgid "Then the video will be linked to the image on the product page."
+msgstr ""
+
+#: wpc-product-videos.php:209
+msgid "Community support"
+msgstr ""
+
+#: wpc-product-videos.php:223
+msgid "Youtube/Vimeo URL."
+msgstr ""
+
+#: wpc-product-videos.php:260
+msgid "WPC Product Videos require WooCommerce version 3.0 or greater."
+msgstr ""

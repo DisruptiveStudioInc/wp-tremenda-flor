@@ -1,0 +1,60 @@
+/* Applied gift cards section */
+.pwgc-applied-gift-cards {
+  padding-bottom: 16px;
+}
+
+.pwgc-applied-gift-cards-title {
+  font-weight: 600;
+}
+
+.pwgc-applied-gift-cards-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pwgc-applied-gift-cards-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 4px;
+}
+
+.pwgc-gift-card-balance {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.pwgc-applied-gift-cards-right {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+/* Input + button layout */
+#pwgc-redeem-gift-card-number {
+  width: 100%;
+}
+
+.pwgc-apply-gift-card-button {
+  width: 100%;
+  margin-top: 4px;
+}
+
+/* Remove button styling */
+.pwgc-remove-gift-card {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  font-size: 1.1em;
+  line-height: 1;
+}
+
+.pwgc-remove-gift-card:disabled {
+  cursor: default;
+}
+
+.wp-block-woocommerce-checkout #pwgc-redeem-gift-card-container {
+    padding: 16px;
+}
