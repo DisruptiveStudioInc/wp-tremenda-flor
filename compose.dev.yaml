@@ -2,7 +2,8 @@ name: wp-tremenda-flor
 
 services:
   wordpress:
-    image: wordpress:7.1
+    # PHP 8.3.36: fixes CVE-2026-109618 and CVE-2026-109619.
+    image: wordpress:7.1-php8.3-apache@sha256:f3e6835fa7d4a5b786615c24b67ec70816e06ebd517d31276bef423e49dfd126
     container_name: wp-tremenda-flor
     restart: unless-stopped
     depends_on:
