@@ -1,7 +1,7 @@
 # Personalizar Tremenda Flor
 
 Plugin de funcionalidades personalizadas para Tremenda Flor, desarrollado por
-**Disruptive Crea**. Versión inicial: **1.0.0**.
+**Disruptive Crea**. Versión actual: **1.1.0**.
 
 ## Activación
 
@@ -41,3 +41,11 @@ Usa el namespace `PersonalizarTremendaFlor` o un subnamespace correspondiente al
 módulo para evitar colisiones. Registra el comportamiento mediante hooks de
 WordPress; los shortcodes se registran en `init`. Mantén la lógica de cada
 funcionalidad dentro de su módulo y deja el archivo principal como bootstrap.
+
+## Galerías de variaciones de WooCommerce
+
+El módulo `woocommerce/variation-galleries/` integra las galerías por estampado,
+el cambio de imágenes al seleccionar una variación y su restauración al limpiar
+la selección. Se carga automáticamente junto al shortcode existente.
+No necesita un plugin separado ni modifica las asignaciones de imágenes guardadas.
+Ver `woocommerce/variation-galleries/README.md` para los metadatos y la integración.
